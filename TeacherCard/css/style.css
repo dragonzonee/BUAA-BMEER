@@ -1,0 +1,50 @@
+
+*{
+	border:0px;
+	margin: 0px;
+}
+
+h4{
+	font-size: 22px;
+}
+
+.container{
+	display: flex;
+	justify-content: space-around;
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(35deg, #84fab0, #8fd3f4);
+}
+
+.card-warpper{
+	margin-top: 100px;
+	background: #fff;
+	width: 28%;
+	height: 75vh;
+	border-radius: 4px;
+	vertical-align: middle;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+}
+
+img{
+	width: 200px;
+	height: 200px;
+}
+
+
+.name-warpper{
+	text-align: center;
+	margin: 0;
+}
+
+.pic-warpper{
+	text-align: center;
+	margin-top: 5vh;
+}
+
+.info-warpper{
+	margin: 0 2vw;
+	overflow: hidden;
+}
