@@ -1,0 +1,87 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+ul,li{
+	padding: 3px;
+	list-style: none;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+h4{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Playfair Display', serif;
+}
+
+.warpper{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 10vh;
+}
+
+.warpper .card{
+	width: 320px;
+	height: 500px;
+	border:0px;
+	position: relative;
+}
+
+.warpper .front{
+	width: 320px;
+	height: 500px;
+	background: #21d2f7;
+	border-radius: 3px;
+	transition: all .8s ease-in-out;
+	position: absolute;
+}
+
+.warpper .content-warpper{
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.warpper .front .content-warpper img{
+	width: 180px;
+	height: 180px;
+}
+
+
+.warpper .card:hover .front{
+	transition: all 0.8s ease-in-out;
+	transform: rotateY(180deg); 
+	backface-visibility: hidden;
+}
+
+.warpper .back{
+	width: 320px;
+	height: 500px;
+	background: #009fab;
+	border-radius: 3px;
+	transition: all .8s ease-in-out;
+	position: absolute;
+	transform: rotateY(-180deg);
+	backface-visibility: hidden;
+	
+}
+
+.warpper .card:hover .back{
+	transition: all 0.8s ease-in-out;
+	transform: rotateY(0deg); 
+	z-index: 2;
+}
