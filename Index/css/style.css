@@ -32,6 +32,7 @@
 	font-weight: normal;
 	font-size: 60px;
 	color: white;
+	display: block;
 }
 
 .nav-warpper .title-warpper h1 a:hover,.nav-warpper .nav li a:hover{
@@ -102,6 +103,7 @@ header{
 	margin: 0 auto;
 	position: relative;
 	z-index: -2;
+	background-color: #EBE7DE;
 }
 
 header .header-img{
@@ -129,8 +131,78 @@ header .header-img-tinder .quote{
 	
 } 
 
+header .header-img-tinder .quote-r{
+	text-align: right;
+}
+
 header .header-img-tinder h2{
 	font-weight: normal;
 	font-size: 30px;
 	font-family: sans-serif;
+}
+
+.course-warpper{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+	z-index: -1;
+	background-color: #000;
+}
+
+
+.course-warpper img{
+	width: 100%;
+	height: auto;
+	opacity: 0.6;
+	position: relative;
+}
+
+.course-warpper .tinder-warpper{
+	width: 80%;
+	height: 60%;
+	background-color: rgba(0,0,0,0.2);
+	position: absolute;
+	top: 50%;
+	margin-top: -10%;
+	left: 10%;
+	display: flex;
+	align-items: center;
+}
+
+.course-warpper .tinder-warpper .title-warpper{
+	text-align: center;
+	width: 20%;
+	position: absolute;
+	left: 5%;
+}
+
+.course-warpper .tinder-warpper .title-warpper h3{
+	font-size: 5vw;
+	color: white;
+}
+
+.course-warpper .tinder-warpper .title-warpper p{
+	font-size: 3vw;
+	color: white;
+}
+
+.course-warpper .tinder-warpper .line{
+	width: 2px;
+	height: 80%;
+	background-color: white;
+	position: absolute;
+	left: 30%;
+}
+
+.course-warpper .tinder-warpper .content-warpper{
+	position: absolute;
+	left: 45%;
+}
+
+.course-warpper .tinder-warpper .content-warpper li{
+	line-height: 3vw;
+	font-size: 2vw;
+	color: white;
+	width: 50vw;
 }
