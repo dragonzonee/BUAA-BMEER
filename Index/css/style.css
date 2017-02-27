@@ -206,3 +206,28 @@ header .header-img-tinder h2{
 	color: white;
 	width: 50vw;
 }
+
+
+.research-warpper{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+	z-index: -1;
+	background-color: #fff;
+}
+
+.research-warpper .tinder-warpper{
+	height: 20%;
+	background: gray;
+}
+
+.research-warpper .img-window-warpper{
+	height: 80%;
+	display: flex;
+}
+
+.research-warpper .img-window-warpper .img-window{
+	flex-grow: 1;
+	background: url(../images/background/cell.jpg) center center no-repeat;
+}
